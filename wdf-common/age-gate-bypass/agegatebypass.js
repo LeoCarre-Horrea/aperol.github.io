@@ -1,3 +1,5 @@
+console.log("🧪 TEST - JavaScript fonctionne !");
+
 if (typeof console === "undefined" || typeof console.log === "undefined") {
   console = {};
   console.log = function () {};
@@ -510,3 +512,4 @@ bypassGeo(function (geolocationObj) {
       console.log("Error while fetching file : ", error);
     });
 });
+
